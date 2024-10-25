@@ -115,7 +115,7 @@ const data = {
     data.recipes.forEach(recipe => {
       const recipeDiv = document.createElement('div');
       recipeDiv.classList.add('recipes');
-      
+       
       recipeDiv.innerHTML = `
         <h2 class="title">${recipe.name}</h2>
         <img src="${recipe.image}" class="recipe-photo" alt="${recipe.name}" />
